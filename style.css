@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template: 
+    'header-1   header-1' 40px
+    'header-2   header-2' 50px
+    'section-1  section-1' auto
+    'section-2  section-2' auto
+    'section-3  section-3' auto
+    'section-4  section-5' auto
+    'section-6  section-7' auto
+    'section-8  section-9' auto
+    'footer     footer' auto /
+    auto         auto  ;
+
+}
+.apple-icon{
+    transform: translateY(-3px);
+}
+
+.material-symbols-outlined{
+    color: #b3b3b3;
+    transform: translateY(-6px);
+}
+
+.header-1{
+    grid-area: header-1;
+    background-color: #333333;
+    display: grid;
+    grid-auto-flow: column;
+    color: #b3b3b3;
+    place-items: center;
+}
+.menu-text{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    font-size: 12px;
+    font-family: sans-serif;
+    transform: translateY(7px);
+}
+.menu-text a{
+    text-decoration: none;
+    color: #b3b3b3;
+}
+span{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    place-items: center;
+}
+.header-2{
+    grid-area: header-2;
+    background-color: #f5f5f7;
+    display: grid;
+    place-items: center;
+}
+.header-2 p{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+b{
+    color: #639fdd;
+}
+.section-1{
+    grid-area: section-1;
+    background-color: royalblue;
+}
+.section-2{
+    grid-area: section-2;
+}
+.section-3{
+    grid-area: section-3;
+}
+.section-4{
+    grid-area: section-4;
+}
+.section-5{
+    grid-area: section-5;
+    background-color: royalblue;
+}
+.section-6{
+    grid-area: section-6;
+}
+.section-7{
+    grid-area: section-7;
+}
+.section-8{
+    grid-area: section-8;
+}
+.section-9{
+    grid-area: section-9;
+}
+footer p{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    background-color: #f5f5f7;
+    grid-area: footer;
+    color: #737376;
+    display: grid;
+    grid-template: 
+    '. top .' auto
+    '. middle .' auto
+    '. bottom .' auto /
+    500px 1fr 500px ;
+}
+.top{
+    grid-area: top;
+    display: grid;
+    padding: 10px;
+}
+.middle{
+    grid-area: middle;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid #80808040;
+    display: grid;
+    grid-template: 
+    'first-column   second-column   third-column    fourth-column   fifth-column' auto
+    'footer-1       footer-1        footer-1        footer-1        footer-1' /
+    auto            auto            auto            auto            auto ;
+}
+.first-column{
+    padding: 10px;
+    grid-area: first-column;
+}
+.first-column ul{
+    list-style: none;
+    display: grid;
+    gap: 10px;
+    padding-top: 10px;
+}
+.first-column li{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.second-column{
+    grid-area: second-column;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+}
+.second-column ul{
+    list-style: none;
+    display: grid;
+    gap: 10px;
+}
+.account{
+    padding-top: 20px;
+    display: grid;
+    gap: 10px;
+}
+.second-column li{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.third-column{
+    padding: 10px;
+    grid-area: third-column;
+}
+.third-column ul{
+    list-style: none;
+    display: grid;
+    gap: 10px;
+    padding-top: 10px;
+}
+.third-column li{
+    font-family: sans-serif;
+    font-size: 12px;
+}    
+.fourth-column{
+    grid-area: fourth-column;
+    padding: 10px;
+}
+.fourth-column ul{
+    list-style: none;
+    display: grid;
+    gap: 10px;
+    padding-top: 10px;
+}
+.fourth-column li{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.for-education{
+    padding-top: 20px;
+    display: grid;
+    gap: 10px;
+}
+.for-healthcare{
+    padding-top: 20px;
+    display: grid;
+    gap: 10px;
+}
+.for-government{
+    padding-top: 20px;
+    display: grid;
+    gap: 10px;
+}
+.fifth-column{
+    grid-area: fifth-column;
+    padding: 10px;
+}
+.fifth-column ul{
+    list-style: none;
+    display: grid;
+    gap: 10px;
+    padding-top: 10px;
+}
+.fifth-column li{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.about-apple{
+    padding-top: 20px;
+    display: grid;
+    gap: 10px;
+}
+.footer-1{
+    grid-area: footer-1;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-top: 20px;
+}
+.bottom{
+    padding: 10px;
+    grid-area: bottom;
+    display: grid;
+    grid-auto-flow: column;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.left-side{
+    display: grid;
+    justify-items: start;
+
+}
+.middle-side{
+    justify-items: middle;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+}
+.change{
+    border-right: 1px solid #80808040;
+    padding: 4px; 
+}
+.right-side{
+    display: grid;
+    justify-items: end;
+}
