@@ -70,21 +70,145 @@ b{
 }
 .section-1{
     grid-area: section-1;
-    background-color: royalblue;
+    background-color: #fbfbfd;
+    display: grid;
+    place-items: center;
+}
+.upper-part-1{
+    display: grid;
+    place-items: center;
+    gap: 10px
+}
+.section-1 h2{
+    padding-top: 20px;
+    font-size: 50px;
+}
+.section-1 h3{
+    font-size: 30px;
+}
+.first-links{
+    font-family: sans-serif;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    transform: translatex(-10px);   
 }
 .section-2{
     grid-area: section-2;
+    background-color: #35283c;
+}
+
+.section-2 h2{
+    font-size: 50px;
+    color: white;
+    padding-top: 20px;
+}
+.section-2 h3{
+    font-size: 30px;
+    color: #fec2eb;
+}
+.upper-part-2{
+    display: grid;
+    place-items: center;
+    gap: 10px
+}
+.second-links{
+    font-family: sans-serif;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    transform: translatex(-10px); 
 }
 .section-3{
     grid-area: section-3;
+    display: grid;
+    place-items: center;
+}
+.section-3 h2{
+    font-size: 50px;
+    color: black;
+    padding-top: 20px;
+}
+.section-3 h3{
+    font-size: 26px;
+    color: #000000e1;
+}
+.upper-part-3{
+    display: grid;
+    place-items: center;
+    gap: 10px
+}
+.third-links{
+    font-family: sans-serif;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    transform: translatex(-10px); 
+}
+.macbook{
+    padding-top: 20px;
 }
 .section-4{
     grid-area: section-4;
+    display: grid;
+    place-items: center;
+    background-color: #fbfbfd;
+    margin: 10px;
+}
+.section-4 h2{
+    font-size: 50px;
+    color: black;
+    padding-top: 20px;
+}
+.section-4 h3{
+    font-size: 20px;
+    color: #000000e1;
+}
+.bottom-part-4{
+    display: grid;
+    place-items: center;
+    gap: 10px
+}
+.fourth-links{
+    font-family: sans-serif;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    transform: translatex(-10px);
 }
 .section-5{
     grid-area: section-5;
-    background-color: royalblue;
+    justify-items: center;
+    background-color: #fbfbfd;
 }
+.main-part{
+    display: grid;
+    place-items: center;
+    gap: 15px;
+}
+.section-5 p{
+    font-family: sans-serif;
+    color: #d9966d;
+    padding-top: 20px;
+    font-size: 13px;
+}
+.section-5 img{
+    width: 150px
+}
+.section-5 h3{
+    color: #d03238;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.section-5 h4{
+    font-weight: 30;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #3f8bd8;
+}
+
 .section-6{
     grid-area: section-6;
 }
