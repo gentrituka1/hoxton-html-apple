@@ -231,14 +231,70 @@ a{
     font-family: sans-serif;
     color: #b9b9bc;
 }
+.sixth-links{
+    font-family: sans-serif;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    transform: translatex(-10px);
+}
 .section-7{
     grid-area: section-7;
     background-color: #fbfbfd;
+    justify-items: center;
+    margin: 10px;
+}
+.the-whole-part{
+    display: grid;
+    place-items: center;
+    gap: 15px;
+}
+.ipad-mini{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    padding-top: 20px;
+}
+.ipad-mini h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: black;
+}
+.ipad-mini h3{
+    font-weight: 30;
+    font-family: sans-serif;
+}
+.seventh-links{
+    font-family: sans-serif;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    transform: translatex(-10px);
 }
 .section-8{
     grid-area: section-8;
     background-color: #fbfbfd;
+    justify-items: center;
+    margin: 10px;
 }
+.the-whole-part-1{
+    display: grid;
+    place-items: center;
+    gap: 15px;
+}
+.apple-card{
+    display: grid;
+    place-items: center;
+    gap: 20px;
+}
+.eighth-links{
+    font-family: sans-serif;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    transform: translatex(-10px);
+}
+
 .section-9{
     grid-area: section-9;
     background-color: #fbfbfd;
