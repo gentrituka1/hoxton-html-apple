@@ -13,9 +13,9 @@ body{
     'section-1  section-1' auto
     'section-2  section-2' auto
     'section-3  section-3' auto
-    'section-4  section-5' auto
-    'section-6  section-7' auto
-    'section-8  section-9' auto
+    'section-4  section-5' 515px
+    'section-6  section-7' 515px
+    'section-8  section-9' 515px
     'footer     footer' auto /
     auto         auto  ;
 
@@ -156,7 +156,7 @@ b{
     margin: 10px;
 }
 .section-4 h2{
-    font-size: 50px;
+    font-size: 40px;
     color: black;
     padding-top: 20px;
 }
@@ -180,6 +180,7 @@ b{
     grid-area: section-5;
     justify-items: center;
     background-color: #fbfbfd;
+    margin: 10px;
 }
 .main-part{
     display: grid;
@@ -211,15 +212,36 @@ a{
 
 .section-6{
     grid-area: section-6;
+    justify-items: center;
+    background-color: #fbfbfd;
+    margin: 10px;
+}
+.homepod-mini{
+    display: grid;
+    place-items: center;
+    gap: 15px;
+}
+.section-6 h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: black;
+    padding-top: 20px;
+}
+.section-6 h6{
+    font-family: sans-serif;
+    color: #b9b9bc;
 }
 .section-7{
     grid-area: section-7;
+    background-color: #fbfbfd;
 }
 .section-8{
     grid-area: section-8;
+    background-color: #fbfbfd;
 }
 .section-9{
     grid-area: section-9;
+    background-color: #fbfbfd;
 }
 footer p{
     font-size: 12px;
