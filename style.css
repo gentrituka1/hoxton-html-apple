@@ -498,3 +498,23 @@ footer{
     display: grid;
     justify-items: end;
 }
+
+
+@media screen and (max-width: 768px){
+    body{
+        grid-template: 
+    'header-1' 40px
+    'header-2' 50px
+    'section-1' auto
+    'section-2' auto
+    'section-3' auto
+    'section-4' 515px
+    'section-5' 515px
+    'section-6' 515px
+    'section-7' 515px
+    'section-8' 515px
+    'section-9' 515px
+    'footer' auto /
+    auto ;
+    }
+}
