@@ -18,13 +18,31 @@ body{
     'section-6  section-7' 515px
     'section-8  section-9' 515px
     'footer     footer' auto /
-    auto         auto  ;
+    auto         auto ;
 
 }
 .apple-icon{
     transform: translateY(-3px);
 }
-
+.header-mobile{
+    background-color: #333333;
+    display: none;
+}
+.navigation-mobile{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 50px 1fr 50px;
+    justify-items: center;
+}
+.menu-logo{
+    transform: translatey(10px);
+}
+.apple-logo-1{
+    transform: translateY(5px);
+}
+.shopping-bag-1{
+    transform: translateY(10px);
+}
 .material-symbols-outlined{
     color: #b3b3b3;
     transform: translateY(-6px);
@@ -85,12 +103,15 @@ b{
     font-size: 50px;
 }
 .section-1 h3{
-    font-size: 30px;
+    font-size: 23px;
+    font-weight: 1;
+    font-family: sans-serif;
 }
 .first-links{
     font-family: sans-serif;
     display: grid;
     grid-auto-flow: column;
+    font-family: sans-serif;
     gap: 50px;
     transform: translatex(-10px);   
 }
@@ -260,10 +281,13 @@ a{
     font-size: 35px;
     font-family: sans-serif;
     color: black;
+    font-size: 72px;
 }
-.ipad-mini h3{
-    font-weight: 30;
-    font-family: sans-serif;
+.mini-gradient{
+    background: -webkit-linear-gradient(left, #ff7487, #8747fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Galada';
 }
 .seventh-links{
     font-family: sans-serif;
@@ -503,7 +527,7 @@ footer{
 @media screen and (max-width: 768px){
     body{
         grid-template: 
-    'header-1' 40px
+    'header-mobile' 40px
     'header-2' 50px
     'section-1' auto
     'section-2' auto
@@ -516,5 +540,18 @@ footer{
     'section-9' 515px
     'footer' auto /
     auto ;
+    }
+    .header-1{
+        display: none;
+    }
+    .header-mobile{
+        display: block;
+    }
+    footer{
+        grid-template: 
+    'top' auto
+    'middle' auto
+    'bottom' auto /
+     1fr ;
     }
 }
